@@ -1,0 +1,39 @@
+#jian{
+
+margin: 180px auto;
+width: 1000px;
+
+}
+
+#jian a{
+    display: inline-block;
+     flex:1 ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+     margin: 0px 10px;
+    line-height: 50px;
+    transition: background-color  0.2s;
+    border-radius: 5px;
+    
+}
+a{
+    background-color: #fff;
+}
+#jian div{ 
+     margin: 20px 0px;  
+    display: flex;
+    height: 50px;
+   
+}
+body{
+    background-color: #3a3a3a;
+}
+.active{
+      color: #fff;  
+      background-color: #000;
+}
+.qu{
+    color: #fff;
+    text-align: center;
+}
