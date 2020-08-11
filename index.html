@@ -70,7 +70,7 @@
         aud[i].src=`./sound/${letters[i]}.mp3`//给音频添加地址
         aud[i].id=letters[i]+'s'//给音频添加id
     }
-        document.onkeydown=function (e){//鼠标按下事件
+        document.onkeydown=function (e){//键盘按下事件
         let key=e.keyCode
         if(key>=65&&key<=90){
            let i=document.getElementById(key)   //`<audio src='./sound/${key}.MP3'  autoplay></audio>`
